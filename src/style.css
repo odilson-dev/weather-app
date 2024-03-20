@@ -97,3 +97,44 @@ body {
   font-weight: 500;
   text-transform: capitalize;
 }
+
+/* WEATHER DETAILS */
+
+.weather-details {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  padding: 0px;
+  display: flex;
+}
+
+.weather-details .humidity,
+.weather-details .wind {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.weather-details .humidity {
+  padding-left: 20px;
+  justify-content: flex-start;
+}
+.weather-details .wind {
+  padding-right: 20px;
+  justify-content: flex-end;
+}
+
+.weather-details {
+  font-size: 56px;
+  margin-right: 10px;
+}
+
+.weather-details span {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 500;
+}
+.weather-details p {
+  font-size: 14px;
+  font-weight: 500;
+}
