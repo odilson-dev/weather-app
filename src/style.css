@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: seagreen;
+  background: url(images/background.jpg);
 }
 .container {
   position: relative;
