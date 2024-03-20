@@ -1,4 +1,5 @@
 import "./style.css";
+const img = require("./images/cloud.png");
 import Background from "./images/background.jpg";
 
 const myBackground = new Image();
