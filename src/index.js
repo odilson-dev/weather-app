@@ -1,12 +1,11 @@
-import _ from "lodash";
 import "./style.css";
-function component() {
-  const element = document.createElement("div");
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(["Hello", "webpack"], " ");
-  element.classList.add("hello");
-  return element;
-}
-
-document.body.appendChild(component());
+// async function getCats() {
+//   const response = await fetch(
+//     "https://api.weatherapi.com/v1/current.json?key=de60dbcadbfb42369c1201306241703&q=port-au-prince",
+//     { mode: "cors" }
+//   );
+//   const data = await response.json();
+//   console.log(data);
+// }
+// getCats();
