@@ -20,6 +20,7 @@ body {
   background: purple;
   border-radius: 16px;
   padding: 20px;
+  color: #fff;
 }
 
 /* SEARCH-BOX */
@@ -66,4 +67,33 @@ body {
   color: #fff;
   padding: 0 40px 0 5px;
   cursor: pointer;
+}
+
+/* WEATHER-BOX */
+
+.weather-box {
+  text-align: center;
+  margin: 40px;
+}
+
+.weather-box img {
+  width: 60px;
+}
+
+.weather-box .temperature {
+  position: relative;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 700;
+  margin: 20px 0 6px -30px;
+}
+
+.weather-box .temperature span {
+  position: absolute;
+  font-size: 24px;
+  margin-left: 4px;
+}
+.weather-box .description {
+  font-weight: 500;
+  text-transform: capitalize;
 }
