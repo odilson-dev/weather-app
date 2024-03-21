@@ -11,13 +11,17 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url(images/background.jpg);
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .container {
   position: relative;
   width: 400px;
   height: 555px;
-  background: purple;
+  background: rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  border: 2px solid rgb(255, 255, 255, 0.2);
   border-radius: 16px;
   padding: 20px;
   color: #fff;
