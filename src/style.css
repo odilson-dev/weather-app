@@ -7,19 +7,16 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
   background-image: url("images/background.jpg");
+  background-color: #00000080;
   background-size: cover;
   background-position: center;
-  overflow: hidden;
 }
 .container {
   position: relative;
   width: 400px;
-  height: 100px;
+  height: 150px;
   background: rgb(255, 255, 255, 0.1);
   backdrop-filter: blur(30px);
   border: 2px solid rgb(255, 255, 255, 0.2);
@@ -245,4 +242,17 @@ body {
 .active-clone#clone-info-humidity span,
 .active-clone#clone-info-wind span {
   transform: translateY(0%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
